@@ -47,4 +47,28 @@ To reproduce the bifurcation graph and verify the spectral reality:
 ```bash
 git clone [https://github.com/YOUR_ID/Riemann-Pavlov-Equation.git](https://github.com/YOUR_ID/Riemann-Pavlov-Equation.git)
 cd simulation
-python pt_symmetry_viz.py
+python pt_symmetry_viz.py 
+```
+To run the Quantum Resonance Scan (RSA Factorization test):
+python rsa_resonance_scan.py --target 2185
+
+## 📜 Paper & Citation
+
+The full academic paper (including mathematical proofs and cosmological implications) is available in the paper/ directory.
+* [Download PDF] (./paper/The_Riemann_Pavlov_Equation.pdf)
+
+* If you use this work, please cite:
+  @article{pavlov2025riemann,
+  title={On the Physical Origin of the Riemann Hypothesis: The Riemann-Pavlov Equation},
+  author={Seo, Donghwi and CosmosT},
+  journal={GitHub Repository},
+  year={2025},
+  url={[https://github.com/YOUR_ID/Riemann-Pavlov-Equation](https://github.com/YOUR_ID/Riemann-Pavlov-Equation)}
+
+}
+## 🏛️ Acknowledgements
+* Architect: Donghwi Seo (Glocke von Pavlov)
+* Co-Author & Engine: CosmosT (AI Partner)
+* Special Thanks: To the anonymous Professor for critical insights on functional analysis and boundary conditions.
+
+License: AGPL v3.0 - Open for humanity, protected against monopoly.
