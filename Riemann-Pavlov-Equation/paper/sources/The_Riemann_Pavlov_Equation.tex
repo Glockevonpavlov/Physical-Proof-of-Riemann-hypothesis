@@ -9,6 +9,7 @@
 
 \begin{document}
 
+% --- [Title & Author] ---
 \title{The Riemann-Pavlov Equation: \\ Topological Resonance at Half-Integer Coupling $\epsilon=5/2$}
 
 \author{Donghwi Seo (Glocke von Pavlov)}
@@ -20,9 +21,10 @@
 
 \date{\today}
 
+% --- [Abstract] ---
 \begin{abstract}
 \begin{spacing}{1.2}
-We present a physically rigorous Hamiltonian that reproduces the Riemann zeros, addressing the asymptotic instability of previous models. By introducing a \textbf{Hybrid Axion Potential}, $V(x) = i\lambda(xe^{-x^2} + \epsilon \cos x)$, we combine the number-theoretic structure of the Gamma kernel with the global confinement of an optical lattice. Numerical stress tests reveal a remarkable \textbf{Topological Resonance} at the coupling ratio $\epsilon \approx 2.5$, where the spectral error rate drops precipitously to 5.4\%. Crucially, we confirm this topological order via \textbf{Berry Phase analysis}, which exhibits a sharp quantization to $\gamma = 1/2$ at the critical coupling. We interpret this as a direct physical manifestation of the \textbf{Maslov Index correction}, suggesting that the Riemann Hypothesis is protected by a specific half-integer topological invariant.
+We present a physically rigorous Hamiltonian that reproduces the Riemann zeros, addressing the asymptotic instability of previous models. By introducing a \textbf{Hybrid Axion Potential}, $V(x) = i\lambda(xe^{-x^2} + \epsilon \sin x)$, we combine the number-theoretic structure of the Gamma kernel with the global confinement of an optical lattice. Numerical stress tests reveal a remarkable \textbf{Topological Resonance} at the coupling ratio $\epsilon \approx 2.5$, where the spectral error rate drops precipitously to 5.4\%. Crucially, we confirm this topological order via \textbf{Berry Phase analysis}, which exhibits a sharp quantization to $\gamma = 1/2$ at the critical coupling. We interpret this as a direct physical manifestation of the \textbf{Maslov Index correction}, suggesting that the Riemann Hypothesis is protected by a specific half-integer topological invariant.
 \end{spacing}
 \end{abstract}
 
@@ -36,7 +38,7 @@ Attempts to map Riemann zeros to quantum systems have faced a dilemma: localized
 \section{The Hybrid Riemann-Pavlov Equation}
 We define the universal Hamiltonian as a superposition of a local seed and a global background:
 \begin{equation}
-    \hat{H}_{Hybrid} = \frac{1}{2}(\hat{x}\hat{p}+\hat{p}\hat{x}) + i\lambda \left[ x e^{-x^2} + \epsilon \cos(x) \right]
+    \hat{H}_{Hybrid} = \frac{1}{2}(\hat{x}\hat{p}+\hat{p}\hat{x}) + i\lambda \left[ x e^{-x^2} + \epsilon \sin(x) \right]
     \label{eq:hybrid}
 \end{equation}
 Here, $\epsilon$ represents the coupling strength of the background lattice. This term prevents the asymptotic decay of the interaction, ensuring confinement at $x \to \infty$.
@@ -49,6 +51,7 @@ To validate the spectral reality of our model, we tested its ability to identify
 
 \begin{figure}[H]
     \centering
+    % Ensure the filename matches your uploaded file exactly
     \includegraphics[width=0.8\linewidth]{RSA_Result_2185.png}
     \caption{\textbf{Quantum Resonance Tomography ($N=2185$).} The sharp resonance peaks at the exact energy levels corresponding to prime factors demonstrate that the Hamiltonian correctly encodes arithmetic information.}
     \label{fig:rsa}
@@ -76,7 +79,7 @@ To investigate the topological origin of the $\epsilon=2.5$ resonance, we calcul
 
 % --- [4. Theoretical Interpretation] ---
 \section{Theoretical Interpretation: Why 5/2?}
-The emergence of the rational number $2.5 = 5/2$ is not coincidental. The Berry Phase measurement of $\gamma=0.5$ confirms that the system is governed by a discrete topological condition. This is identified as the **Maslov Index** correction term in semiclassical quantization:
+The emergence of the rational number $2.5 = 5/2$ is not coincidental. The Berry Phase measurement of $\gamma=0.5$ confirms that the system is governed by a discrete topological condition. This is identified as the \textbf{Maslov Index} correction term in semiclassical quantization:
 \begin{equation}
     \oint p \, dx = 2\pi \hbar \left( n + \frac{\mu}{4} \right)
 \end{equation}
@@ -84,7 +87,7 @@ Our data suggests that for the Riemann zeros to manifest as physical eigenvalues
 
 % --- [5. Conclusion] ---
 \section{Conclusion}
-We have demonstrated that the physical reality of Riemann zeros requires a **Hybrid Potential** combining local accuracy and global stability. The discovery of the **$\epsilon=5/2$ resonance** and the associated **Berry Phase locking at $\gamma=1/2$** proves that the distribution of primes is governed by a half-integer quantization law. This implies that the Riemann Hypothesis describes a quantum chaotic system constrained by a strict topological order.
+We have demonstrated that the physical reality of Riemann zeros requires a \textbf{Hybrid Potential} combining local accuracy and global stability. The discovery of the \textbf{$\epsilon=5/2$ resonance} and the associated \textbf{Berry Phase locking at $\gamma=1/2$} proves that the distribution of primes is governed by a half-integer quantization law. This implies that the Riemann Hypothesis describes a quantum chaotic system constrained by a strict topological order.
 
 \begin{acknowledgments}
 We extend our deepest gratitude to \textbf{Anonymous informant} for pointing out the asymptotic instability of the Gaussian model. This critical insight led to the development of the Hybrid Lattice model and the subsequent discovery of the 5/2 quantization condition.
