@@ -24,13 +24,13 @@ $$\hat{H}_{\text{Univ}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lam
 ### 1. PT-Symmetry Phase Transition (Bifurcation)
 Simulation confirms that eigenvalues remain real **only within the Unbroken Phase** (on the Critical Line). Beyond the Exceptional Point (EP), symmetry breaks, and energy becomes imaginary (physical collapse).
 
-![Bifurcation Graph](evidence/bifurcation_graph.png)
+![Bifurcation Graph](evidence/source/bifurcation_graph.png)
 *(Figure 1: Numerical Simulation of PT-Symmetry Breaking)*
 
 ### 2. RSA Decryption via Quantum Resonance
 Using this Hamiltonian, we successfully decomposed composite numbers (e.g., $N=2185$) into prime factors by detecting **Physical Resonance Peaks** at their corresponding energy levels.
 
-![RSA Scan](evidence/rsa_scan_result.png)
+![RSA Scan](paper/sources/rsa_Result_2185.png)
 *(Figure 2: 3-Body Quantum Resonance Tomography)*
 
 ---
