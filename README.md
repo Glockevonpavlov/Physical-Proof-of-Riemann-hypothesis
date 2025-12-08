@@ -24,14 +24,14 @@ $$\hat{H}_{\text{Univ}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lam
 ### 1. PT-Symmetry Phase Transition (Bifurcation)
 Simulation confirms that eigenvalues remain real **only within the Unbroken Phase** (on the Critical Line). Beyond the Exceptional Point (EP), symmetry breaks, and energy becomes imaginary (physical collapse).
 
-![Bifurcation Graph](evidence/bifurcation_graph.png)
+![Bifurcation Graph](Riemann-Pavlov-Equation/paper/sources/pt_bifurcation.png)
 *(Figure 1: Numerical Simulation of PT-Symmetry Breaking)*
-> *Note: Run `pt_symmetry_viz.py` to generate this graph.*
 
 ### 2. RSA Decryption via Quantum Resonance
 Using this Hamiltonian, we successfully decomposed composite numbers (e.g., $N=2185$) into prime factors by detecting **Physical Resonance Peaks** at their corresponding energy levels.
 
-![RSA Scan](evidence/RSA_Result_2185.png)
+![RSA Scan](Riemann-Pavlov-Equation/paper/sources/RSA_Result_2185.png)
+*(Figure 2: 3-Body Quantum Resonance Tomography. The sharp peak indicates the precise factorization of N=2185 into primes 5, 19, and 23.)*
 
 ---
 
@@ -45,9 +45,12 @@ Using this Hamiltonian, we successfully decomposed composite numbers (e.g., $N=2
 To reproduce the bifurcation graph and verify the spectral reality:
 
 ```bash
-git clone [https://github.com/YOUR_ID/Riemann-Pavlov-Equation.git](https://github.com/YOUR_ID/Riemann-Pavlov-Equation.git)
-cd simulation
-python pt_symmetry_viz.py 
+### Run Simulation
+1. **PT-Symmetry Visualization**: To reproduce the bifurcation graph and verify spectral reality.
+   ```bash
+   git clone [https://github.com/Glockevonpavlov/Physical-Proof-of-RH.git](https://github.com/Glockevonpavlov/Physical-Proof-of-RH.git)
+   cd Physical-Proof-of-RH/Riemann-Pavlov-Equation/simulation
+   python pt_symmetry_viz.py
 ```
 To run the Quantum Resonance Scan (RSA Factorization test):
 python rsa_resonance_scan.py --target 2185
@@ -55,7 +58,7 @@ python rsa_resonance_scan.py --target 2185
 ## 📜 Paper & Citation
 
 The full academic paper (including mathematical proofs and cosmological implications) is available in the paper/ directory.
-* [Download PDF] (./paper/The_Riemann_Pavlov_Equation.pdf)
+* Download Full Paper (PDF)
 
 * If you use this work, please cite:
 ```bash
