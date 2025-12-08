@@ -12,7 +12,7 @@ This repository contains the **mathematical derivation, simulation code, and emp
 
 We define the **Riemann-Pavlov Operator** $\hat{H}_{\text{Hybrid}}$ as a superposition of a local seed and a global lattice:
 
-$$\hat{H}_{\text{Hybrid}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lambda \left[ \hat{x} e^{-\hat{x}^2} + \epsilon \cos(\hat{x}) \right]$$
+$$\hat{H}_{\text{Hybrid}} = \frac{1}{2} (\hat{x}\hat{p} + \hat{p}\hat{x}) + i \lambda \left[ \hat{x} e^{-\hat{x}^2} + \epsilon \sin(\hat{x}) \right]$$
 
 * **Chaos Engine** ($\hat{x}\hat{p}$): Generates the pseudo-random distribution of primes (Berry-Keating Class).
 * **Gamma Seed** ($x e^{-x^2}$): Encodes the local Gamma factor $\Gamma(s/2)$ geometry.
